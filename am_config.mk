@@ -3,7 +3,7 @@
 #
 
 AM_VERSION := NGT-R.00
-AOSP_TAG_ID := android-7.1.1_r58
+AOSP_TAG_ID := android-7.1.2_r36
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += \
