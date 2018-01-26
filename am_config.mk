@@ -26,4 +26,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.aosptag.id=$(AOSP_TAG_ID)
 
 # Include Google Apps
-include vendor/google/gapps/gapps.mk
+#include vendor/google/gapps/gapps.mk
