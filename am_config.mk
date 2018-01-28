@@ -13,6 +13,11 @@ PRODUCT_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     vendor/aospmod/extra/hosts:system/etc/hosts
 
+# Eleven from LineageOS
+# https://github.com/LineageOS
+PRODUCT_PACKAGES += \
+    Eleven
+
 # Expose SELinux settings
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
